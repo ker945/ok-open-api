@@ -29,9 +29,9 @@ time = get_timestamp()
 
 if __name__ == '__main__':
 
-    api_key = ""
-    seceret_key = ""
-    passphrase = ""
+    api_key = "a0380521-9bfe-4c3a-971b-a2a0ffe7a092"
+    seceret_key = "DF1FE5AE4D6665D3354538C29CE56AF2"
+    passphrase = "yangshuke01"
 
     # 资金账户API
     # account api test
@@ -115,7 +115,7 @@ if __name__ == '__main__':
     # 获取委托单列表 （20次/2s）
     # result = spotAPI.get_order_algos('XRP-USDT', '1', status='3')
     # 公共-获取币对信息 （20次/2s）
-    # result = spotAPI.get_coin_info()
+    result = spotAPI.get_coin_info()
     # 公共-获取深度数据 （20次/2s）
     # result = spotAPI.get_depth('XRP-USDT')
     # 公共-获取全部ticker信息 （50次/2s）
